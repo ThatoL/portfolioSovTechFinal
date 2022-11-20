@@ -34,7 +34,8 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#"
+                  href="./resume.pdf"
+                  target="_blank"
                 >
                   Resume
                 </a>
@@ -69,7 +70,7 @@ export default function Home() {
             
           </div>
         </section>
-        <section>
+        <section className='pb-2'>
         <div>
             <h3 className="text-3xl py-1 dark:text-white ">About ME</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
@@ -98,7 +99,7 @@ export default function Home() {
           <h2 className="text-3xl py-1 dark:text-white ">My Skills</h2>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-                <Image src='/java.png' width={100} height={100} className='mx-auto'/>
+                <Image src='/java.png' width={200} height={200} className='mx-auto'/>
                 <h3 className="text-lg font-medium pt-8 pb-2  ">
                   Java
                 </h3>
@@ -109,7 +110,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-                <Image src='/js.png' width={100} height={100} className='mx-auto'/>
+                <Image src='/js.png' width={200} height={200} className='mx-auto'/>
                 <h3 className="text-lg font-medium pt-8 pb-2  ">
                   Javascript
                 </h3>
@@ -120,7 +121,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-                <Image src='/python.png' width={100} height={100} className='mx-auto'/>
+                <Image src='/python.png' width={200} height={200} className='mx-auto'/>
                 <h3 className="text-lg font-medium pt-8 pb-2  ">
                   Python
                 </h3>
@@ -131,20 +132,20 @@ export default function Home() {
                 </p>
               </div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-                <Image src='/react.png' width={100} height={100} className='mx-auto'/>
+                <Image src='/react.png' width={200} height={200} className='mx-auto'/>
                 <h3 className="text-lg font-medium pt-8 pb-2  ">
                   React Native
                 </h3>
                 <p className="py-2">
                 React Native is an open-source UI software framework
-                 created by Meta Platforms, Inc. It is used to develop
+                 . It is used to develop
                   applications for Android, iOS, 
-                   Windows and UWP by enabling developers to use the React
+                    by enabling developers to use the React
                  framework along with native platform capabilities.
                 </p>
               </div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10 mx-auto  dark:bg-white flex-1">
-                <Image src='/flutter.png' width={100} height={100} className='mx-auto'/>
+                <Image src='/flutter.png' width={200} height={200} className='mx-auto'/>
                 <h3 className="text-lg font-medium pt-8 pb-2  ">
                   Flutter
                 </h3>
