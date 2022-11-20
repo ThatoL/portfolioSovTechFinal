@@ -58,8 +58,8 @@ export default function Home() {
             </h3>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               
-              <a href='https://gitlab.com/Tlebethe'><AiFillGitlab /></a>
-              <a href='https://www.linkedin.com/in/thato-lebethe'><AiFillLinkedin /></a>
+              <a href='https://gitlab.com/Tlebethe' target="_blank"><AiFillGitlab /></a>
+              <a href='https://www.linkedin.com/in/thato-lebethe' target="_blank"><AiFillLinkedin /></a>
               
             </div>
 
